@@ -35,7 +35,7 @@ public class NumGuessv2 {
             maxguesses = 0;
 	}
 			}
-	//makes text diffrent between guess and guessed depening on how many trys user takes to guess correctly 
+	//makes text diffrent between guess and guessed depening on how many attempts user takes to guess correctly 
 
 if (maxguesses == 0 && guess != magicNumber) {
 	System.out.printf("\nYou are out of guesses, the magic number was %d", magicNumber);
